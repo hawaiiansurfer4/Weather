@@ -7,58 +7,6 @@
 
 import Foundation
 
-struct Weather: Codable {
-    let product: String
-//    let dataseries: [Dataseries]
-}
-//
-//struct Dataseries: Codable {
-//    let timepoint: Int
-//    let cloudCover: Int
-//    let transparency: Int
-//    let wind10m: WindDirection
-//}
-//
-//struct WindDirection: Codable {
-//    let direction: String?
-//}
-
-//struct Weather: Codable {
-//    struct Dataseries: Codable {
-//        let timepoint: Int
-//        let cloudCover: Int
-//        let transparency: Int
-//
-//        struct Wind10m: Codable {
-//            let direction: String?
-//        }
-//
-//        let wind10m: Wind10m
-//    }
-//
-//    let dataseries: [Dataseries]
-//}
-
-/*
-
-struct WeatherModel: Codable {
-    let product: String
-    let dataseries: [Dataseries]
-}
-struct Dataseries: Codable {
-    let timepoint, cloudcover, seeing, transparency: Int
-    let liftedIndex, rh2M: Int
-    let wind10M: Wind10M
-    let temp2M: Int
-}
-
-struct Wind10M: Codable {
-    let direction: String
-    let speed: Int
-}
-
-*/
-
 struct WeatherModel: Codable {
     let product, welcomeInit: String
     let dataseries: [Dataseries]

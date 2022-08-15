@@ -13,8 +13,6 @@ protocol WeatherManagerDelegate {
 }
 
 struct WeatherManager {
-    
-//    var weatherModel = [Weather]()
     var delegate: WeatherManagerDelegate?
 
   
