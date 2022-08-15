@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4B3E4C328A6CD5900709362 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B3E4C228A6CD5900709362 /* WeatherManager.swift */; };
+		C4EC500328A54AD800A616D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EC500228A54AD800A616D5 /* AppDelegate.swift */; };
+		C4EC500528A54AD800A616D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EC500428A54AD800A616D5 /* SceneDelegate.swift */; };
+		C4EC500728A54AD800A616D5 /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EC500628A54AD800A616D5 /* WeatherVC.swift */; };
+		C4EC500A28A54AD800A616D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4EC500828A54AD800A616D5 /* Main.storyboard */; };
+		C4EC500D28A54AD800A616D5 /* JPMCChallengeTable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C4EC500B28A54AD800A616D5 /* JPMCChallengeTable.xcdatamodeld */; };
+		C4EC500F28A54ADA00A616D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4EC500E28A54ADA00A616D5 /* Assets.xcassets */; };
+		C4EC501228A54ADA00A616D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4EC501028A54ADA00A616D5 /* LaunchScreen.storyboard */; };
+		C4EC501D28A54ADB00A616D5 /* JPMCChallengeTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EC501C28A54ADB00A616D5 /* JPMCChallengeTableTests.swift */; };
+		C4EC502728A54ADB00A616D5 /* JPMCChallengeTableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EC502628A54ADB00A616D5 /* JPMCChallengeTableUITests.swift */; };
+		C4EC502928A54ADB00A616D5 /* JPMCChallengeTableUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EC502828A54ADB00A616D5 /* JPMCChallengeTableUITestsLaunchTests.swift */; };
+		C4EC503B28A54CF600A616D5 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EC503A28A54CF600A616D5 /* Weather.swift */; };
+		C4EC504228A54ECD00A616D5 /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EC504028A54ECD00A616D5 /* WeatherCell.swift */; };
+		C4EC504328A54ECD00A616D5 /* WeatherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4EC504128A54ECD00A616D5 /* WeatherCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4EC501928A54ADB00A616D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4EC4FF728A54AD800A616D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4EC4FFE28A54AD800A616D5;
+			remoteInfo = JPMCChallengeTable;
+		};
+		C4EC502328A54ADB00A616D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4EC4FF728A54AD800A616D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4EC4FFE28A54AD800A616D5;
+			remoteInfo = JPMCChallengeTable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4B3E4C228A6CD5900709362 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		C4EC4FFF28A54AD800A616D5 /* JPMCChallengeTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPMCChallengeTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4EC500228A54AD800A616D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C4EC500428A54AD800A616D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C4EC500628A54AD800A616D5 /* WeatherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherVC.swift; sourceTree = "<group>"; };
+		C4EC500928A54AD800A616D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4EC500C28A54AD800A616D5 /* JPMCChallengeTable.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JPMCChallengeTable.xcdatamodel; sourceTree = "<group>"; };
+		C4EC500E28A54ADA00A616D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4EC501128A54ADA00A616D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4EC501328A54ADA00A616D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4EC501828A54ADB00A616D5 /* JPMCChallengeTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPMCChallengeTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4EC501C28A54ADB00A616D5 /* JPMCChallengeTableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPMCChallengeTableTests.swift; sourceTree = "<group>"; };
+		C4EC502228A54ADB00A616D5 /* JPMCChallengeTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPMCChallengeTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4EC502628A54ADB00A616D5 /* JPMCChallengeTableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPMCChallengeTableUITests.swift; sourceTree = "<group>"; };
+		C4EC502828A54ADB00A616D5 /* JPMCChallengeTableUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPMCChallengeTableUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C4EC503A28A54CF600A616D5 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		C4EC504028A54ECD00A616D5 /* WeatherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
+		C4EC504128A54ECD00A616D5 /* WeatherCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4EC4FFC28A54AD800A616D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EC501528A54ADB00A616D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EC501F28A54ADB00A616D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4EC4FF628A54AD800A616D5 = {
+			isa = PBXGroup;
+			children = (
+				C4EC500128A54AD800A616D5 /* JPMCChallengeTable */,
+				C4EC501B28A54ADB00A616D5 /* JPMCChallengeTableTests */,
+				C4EC502528A54ADB00A616D5 /* JPMCChallengeTableUITests */,
+				C4EC500028A54AD800A616D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4EC500028A54AD800A616D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4EC4FFF28A54AD800A616D5 /* JPMCChallengeTable.app */,
+				C4EC501828A54ADB00A616D5 /* JPMCChallengeTableTests.xctest */,
+				C4EC502228A54ADB00A616D5 /* JPMCChallengeTableUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4EC500128A54AD800A616D5 /* JPMCChallengeTable */ = {
+			isa = PBXGroup;
+			children = (
+				C4EC503628A54C7400A616D5 /* Models */,
+				C4EC500228A54AD800A616D5 /* AppDelegate.swift */,
+				C4EC500428A54AD800A616D5 /* SceneDelegate.swift */,
+				C4EC503528A54C6900A616D5 /* Views */,
+				C4EC500828A54AD800A616D5 /* Main.storyboard */,
+				C4EC500E28A54ADA00A616D5 /* Assets.xcassets */,
+				C4EC501028A54ADA00A616D5 /* LaunchScreen.storyboard */,
+				C4EC501328A54ADA00A616D5 /* Info.plist */,
+				C4EC500B28A54AD800A616D5 /* JPMCChallengeTable.xcdatamodeld */,
+			);
+			path = JPMCChallengeTable;
+			sourceTree = "<group>";
+		};
+		C4EC501B28A54ADB00A616D5 /* JPMCChallengeTableTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4EC501C28A54ADB00A616D5 /* JPMCChallengeTableTests.swift */,
+			);
+			path = JPMCChallengeTableTests;
+			sourceTree = "<group>";
+		};
+		C4EC502528A54ADB00A616D5 /* JPMCChallengeTableUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4EC502628A54ADB00A616D5 /* JPMCChallengeTableUITests.swift */,
+				C4EC502828A54ADB00A616D5 /* JPMCChallengeTableUITestsLaunchTests.swift */,
+			);
+			path = JPMCChallengeTableUITests;
+			sourceTree = "<group>";
+		};
+		C4EC503528A54C6900A616D5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C4EC500628A54AD800A616D5 /* WeatherVC.swift */,
+				C4EC504028A54ECD00A616D5 /* WeatherCell.swift */,
+				C4EC504128A54ECD00A616D5 /* WeatherCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C4EC503628A54C7400A616D5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C4EC503A28A54CF600A616D5 /* Weather.swift */,
+				C4B3E4C228A6CD5900709362 /* WeatherManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4EC4FFE28A54AD800A616D5 /* JPMCChallengeTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4EC502C28A54ADB00A616D5 /* Build configuration list for PBXNativeTarget "JPMCChallengeTable" */;
+			buildPhases = (
+				C4EC4FFB28A54AD800A616D5 /* Sources */,
+				C4EC4FFC28A54AD800A616D5 /* Frameworks */,
+				C4EC4FFD28A54AD800A616D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JPMCChallengeTable;
+			productName = JPMCChallengeTable;
+			productReference = C4EC4FFF28A54AD800A616D5 /* JPMCChallengeTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4EC501728A54ADB00A616D5 /* JPMCChallengeTableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4EC502F28A54ADB00A616D5 /* Build configuration list for PBXNativeTarget "JPMCChallengeTableTests" */;
+			buildPhases = (
+				C4EC501428A54ADB00A616D5 /* Sources */,
+				C4EC501528A54ADB00A616D5 /* Frameworks */,
+				C4EC501628A54ADB00A616D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4EC501A28A54ADB00A616D5 /* PBXTargetDependency */,
+			);
+			name = JPMCChallengeTableTests;
+			productName = JPMCChallengeTableTests;
+			productReference = C4EC501828A54ADB00A616D5 /* JPMCChallengeTableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4EC502128A54ADB00A616D5 /* JPMCChallengeTableUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4EC503228A54ADB00A616D5 /* Build configuration list for PBXNativeTarget "JPMCChallengeTableUITests" */;
+			buildPhases = (
+				C4EC501E28A54ADB00A616D5 /* Sources */,
+				C4EC501F28A54ADB00A616D5 /* Frameworks */,
+				C4EC502028A54ADB00A616D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4EC502428A54ADB00A616D5 /* PBXTargetDependency */,
+			);
+			name = JPMCChallengeTableUITests;
+			productName = JPMCChallengeTableUITests;
+			productReference = C4EC502228A54ADB00A616D5 /* JPMCChallengeTableUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4EC4FF728A54AD800A616D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					C4EC4FFE28A54AD800A616D5 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					C4EC501728A54ADB00A616D5 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = C4EC4FFE28A54AD800A616D5;
+					};
+					C4EC502128A54ADB00A616D5 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = C4EC4FFE28A54AD800A616D5;
+					};
+				};
+			};
+			buildConfigurationList = C4EC4FFA28A54AD800A616D5 /* Build configuration list for PBXProject "JPMCChallengeTable" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4EC4FF628A54AD800A616D5;
+			productRefGroup = C4EC500028A54AD800A616D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4EC4FFE28A54AD800A616D5 /* JPMCChallengeTable */,
+				C4EC501728A54ADB00A616D5 /* JPMCChallengeTableTests */,
+				C4EC502128A54ADB00A616D5 /* JPMCChallengeTableUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4EC4FFD28A54AD800A616D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4EC504328A54ECD00A616D5 /* WeatherCell.xib in Resources */,
+				C4EC501228A54ADA00A616D5 /* LaunchScreen.storyboard in Resources */,
+				C4EC500F28A54ADA00A616D5 /* Assets.xcassets in Resources */,
+				C4EC500A28A54AD800A616D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EC501628A54ADB00A616D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EC502028A54ADB00A616D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4EC4FFB28A54AD800A616D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4EC500D28A54AD800A616D5 /* JPMCChallengeTable.xcdatamodeld in Sources */,
+				C4EC500728A54AD800A616D5 /* WeatherVC.swift in Sources */,
+				C4EC500328A54AD800A616D5 /* AppDelegate.swift in Sources */,
+				C4B3E4C328A6CD5900709362 /* WeatherManager.swift in Sources */,
+				C4EC503B28A54CF600A616D5 /* Weather.swift in Sources */,
+				C4EC500528A54AD800A616D5 /* SceneDelegate.swift in Sources */,
+				C4EC504228A54ECD00A616D5 /* WeatherCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EC501428A54ADB00A616D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4EC501D28A54ADB00A616D5 /* JPMCChallengeTableTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EC501E28A54ADB00A616D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4EC502728A54ADB00A616D5 /* JPMCChallengeTableUITests.swift in Sources */,
+				C4EC502928A54ADB00A616D5 /* JPMCChallengeTableUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4EC501A28A54ADB00A616D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4EC4FFE28A54AD800A616D5 /* JPMCChallengeTable */;
+			targetProxy = C4EC501928A54ADB00A616D5 /* PBXContainerItemProxy */;
+		};
+		C4EC502428A54ADB00A616D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4EC4FFE28A54AD800A616D5 /* JPMCChallengeTable */;
+			targetProxy = C4EC502328A54ADB00A616D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4EC500828A54AD800A616D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4EC500928A54AD800A616D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4EC501028A54ADA00A616D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4EC501128A54ADA00A616D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4EC502A28A54ADB00A616D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4EC502B28A54ADB00A616D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4EC502D28A54ADB00A616D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X28T8ZG28R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JPMCChallengeTable/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = murphy.iosDevSean.JPMCChallengeTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4EC502E28A54ADB00A616D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X28T8ZG28R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JPMCChallengeTable/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = murphy.iosDevSean.JPMCChallengeTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C4EC503028A54ADB00A616D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X28T8ZG28R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = murphy.iosDevSean.JPMCChallengeTableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JPMCChallengeTable.app/JPMCChallengeTable";
+			};
+			name = Debug;
+		};
+		C4EC503128A54ADB00A616D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X28T8ZG28R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = murphy.iosDevSean.JPMCChallengeTableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JPMCChallengeTable.app/JPMCChallengeTable";
+			};
+			name = Release;
+		};
+		C4EC503328A54ADB00A616D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X28T8ZG28R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = murphy.iosDevSean.JPMCChallengeTableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JPMCChallengeTable;
+			};
+			name = Debug;
+		};
+		C4EC503428A54ADB00A616D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X28T8ZG28R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = murphy.iosDevSean.JPMCChallengeTableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JPMCChallengeTable;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4EC4FFA28A54AD800A616D5 /* Build configuration list for PBXProject "JPMCChallengeTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4EC502A28A54ADB00A616D5 /* Debug */,
+				C4EC502B28A54ADB00A616D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4EC502C28A54ADB00A616D5 /* Build configuration list for PBXNativeTarget "JPMCChallengeTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4EC502D28A54ADB00A616D5 /* Debug */,
+				C4EC502E28A54ADB00A616D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4EC502F28A54ADB00A616D5 /* Build configuration list for PBXNativeTarget "JPMCChallengeTableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4EC503028A54ADB00A616D5 /* Debug */,
+				C4EC503128A54ADB00A616D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4EC503228A54ADB00A616D5 /* Build configuration list for PBXNativeTarget "JPMCChallengeTableUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4EC503328A54ADB00A616D5 /* Debug */,
+				C4EC503428A54ADB00A616D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C4EC500B28A54AD800A616D5 /* JPMCChallengeTable.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C4EC500C28A54AD800A616D5 /* JPMCChallengeTable.xcdatamodel */,
+			);
+			currentVersion = C4EC500C28A54AD800A616D5 /* JPMCChallengeTable.xcdatamodel */;
+			path = JPMCChallengeTable.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C4EC4FF728A54AD800A616D5 /* Project object */;
+}
